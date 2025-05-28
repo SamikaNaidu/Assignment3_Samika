@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Appointment Form</title>
+</head>
+<body>
+    <h2 style="text-align: center; font-family: Arial, sans-serif; font-weight: bold;">Doctor Appointment Form</h2>
+    <hr style="height: 2px; background-color: red; border: none; width: 80%;">
+
+    <form style="margin: 30px; font-family: Arial, sans-serif;">
+        <label style="display: inline-block; width: 150px;">Appointment Date</label>
+        <input type="date" style="margin-bottom: 10px;"><br>
+
+        <label style="display: inline-block; width: 150px;">Appointment Time</label>
+        <input type="time" style="margin-bottom: 10px;"><br>
+
+        <label style="display: inline-block; width: 150px;">Name</label>
+        <input type="text" placeholder="First" style="margin-right: 10px;">
+        <input type="text" placeholder="Last" style="margin-bottom: 10px;"><br>
+
+        <label style="display: inline-block; width: 150px;">Gender</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br><br>
+
+        <label style="display: inline-block; width: 150px;">Phone</label>
+        <input type="text" placeholder="####" style="margin-bottom: 10px;"><br>
+
+        <label style="display: inline-block; width: 150px;">Address</label>
+        <input type="text" placeholder="city" style="margin-right: 10px;">
+        <input type="text" placeholder="state" style="margin-bottom: 10px;"><br>
+
+        <label style="display: inline-block; width: 150px; vertical-align: top;">Your Query</label>
+        <textarea rows="4" cols="40" style="margin-bottom: 10px;"></textarea><br>
+
+        <label style="display: inline-block; width: 150px; vertical-align: top;">Appointment Type</label>
+        <div style="display: inline-block;">
+            <p style="margin: 0;">Select which appointment type(s) you require</p>
+            <input type="checkbox"> Cervix checkup<br>
+            <input type="checkbox"> Heart checkup<br>
+            <input type="checkbox"> Eye check-up<br>
+            <input type="checkbox"> Hearing Test<br>
+        </div><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
